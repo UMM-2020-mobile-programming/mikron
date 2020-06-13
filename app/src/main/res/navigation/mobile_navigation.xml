@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="id.neilsama.mikron.fragment.HomepageFragment"
+        android:label="@string/menu_dashboard"
+        tools:layout="@layout/fragment_homepage" />
+
+    <fragment
+        android:id="@+id/nav_wallet"
+        android:name="id.neilsama.mikron.fragment.WalletFragment"
+        android:label="@string/menu_wallet"
+        tools:layout="@layout/fragment_wallet" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="id.neilsama.mikron.fragment.SettingFragment"
+        android:label="@string/menu_setting"
+        tools:layout="@layout/fragment_pengaturan" />
+
+    <fragment
+        android:id="@+id/nav_ketentuan_layanan"
+        android:name="id.neilsama.mikron.fragment.KetentuanLayananFragment"
+        android:label="@string/menu_ketentuan_layanan"
+        tools:layout="@xml/fragment_ketentuan_layanan" />
+
+    <fragment
+        android:id="@+id/nav_kebijakan_privasi"
+        android:name="id.neilsama.mikron.fragment.KebijakanPrivasiFragment"
+        android:label="@string/menu_kebijkan_prvasi"
+        tools:layout="@xml/fragment_kebijakan_privasi" />
+
+    <fragment
+        android:id="@+id/nav_bantuan"
+        android:name="id.neilsama.mikron.fragment.BantuanFragment"
+        android:label="@string/menu_bantuan"
+        tools:layout="@xml/fragment_bantuan" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="id.neilsama.mikron.fragment.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@xml/fragment_about" />
+
+</navigation>

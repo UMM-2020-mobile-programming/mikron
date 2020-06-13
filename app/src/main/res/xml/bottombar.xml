@@ -1,0 +1,30 @@
+<Tab>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/mini_home_black_24dp"
+        activeColor="#000"
+        titleSize="6dp"
+        title="Home"
+        />
+    <tab
+        id="@+id/tab_chat"
+        icon="@drawable/mini_chat_black_24dp"
+        activeColor="#000"
+        titleSize="6dp"
+        title="Chat"
+        />
+    <tab
+        id="@+id/tab_inbox"
+        icon="@drawable/mini_announcement_black_24dp"
+        activeColor="#000"
+        titleSize="6dp"
+        title="Inbox"
+        />
+    <tab
+        id="@+id/tab_history"
+        icon="@drawable/mini_history_black_24dp"
+        activeColor="#000"
+        titleSize="6dp"
+        title="Histoy"
+        />
+</Tab>

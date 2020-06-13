@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/akun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/akun"
+                android:textColor="#000000"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/saldo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="280dp"
+                android:text="@string/saldo"
+                android:textColor="#000000"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="88dp"
+                android:layout_height="122dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="91dp"
+                    android:layout_height="69dp"
+                    android:contentDescription="TODO"
+                    android:paddingLeft="30dp"
+                    app:srcCompat="@drawable/pay"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/bayar"
+                    android:layout_width="91dp"
+                    android:layout_height="19dp"
+                    android:paddingLeft="35dp"
+                    android:text="@string/bayar"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="96dp"
+                android:layout_height="122dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton10"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="match_parent"
+                    android:layout_height="69dp"
+                    android:contentDescription="TODO"
+                    android:paddingLeft="45dp"
+                    app:srcCompat="@drawable/qr"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/qr"
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:paddingLeft="40dp"
+                    android:text="@string/scanqr"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="109dp"
+                android:layout_height="122dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton11"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:contentDescription="TODO"
+                    android:paddingLeft="50dp"
+                    android:paddingTop="18dp"
+                    app:srcCompat="@drawable/topup"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/toup"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:paddingLeft="51dp"
+                    android:text="@string/topup"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="122dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton12"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="68dp"
+                    android:contentDescription="TODO"
+                    android:paddingLeft="40dp"
+                    app:srcCompat="@drawable/promo"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/promo"
+                    android:layout_width="102dp"
+                    android:layout_height="19dp"
+                    android:paddingLeft="35dp"
+                    android:text="@string/promo"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Met_pem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/metode_pembayaran"
+            android:textColor="#000000"
+            tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="126dp"
+                android:layout_height="191dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="105dp"
+                    android:layout_height="52dp"
+                    android:contentDescription="TODO"
+                    android:paddingTop="10dp"
+                    app:srcCompat="@drawable/mandiri"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageButton
+                    android:id="@+id/imageButton13"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="100dp"
+                    android:layout_height="93dp"
+                    android:contentDescription="TODO"
+                    android:paddingTop="20dp"
+                    app:srcCompat="@drawable/bca"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="148dp"
+                android:layout_height="191dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton8"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="107dp"
+                    android:layout_height="57dp"
+                    android:contentDescription="TODO"
+                    app:srcCompat="@drawable/bni"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageButton
+                    android:id="@+id/imageButton14"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="149dp"
+                    android:layout_height="88dp"
+                    android:contentDescription="TODO"
+                    android:paddingTop="10dp"
+                    app:srcCompat="@drawable/sinarmas"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="191dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton15"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="132dp"
+                    android:layout_height="77dp"
+                    android:contentDescription="TODO"
+                    app:srcCompat="@drawable/mega"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageButton
+                    android:id="@+id/imageButton9"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="100dp"
+                    android:layout_height="62dp"
+                    android:contentDescription="TODO"
+                    android:paddingLeft="40dp"
+                    app:srcCompat="@drawable/bri"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tagihan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:text="@string/tagihan"
+            android:textColor="#000000"
+            tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="81dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton16"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="71dp"
+                    android:layout_height="55dp"
+                    android:contentDescription="TODO"
+                    android:paddingLeft="20dp"
+                    app:srcCompat="@drawable/listrik"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/listrik"
+                    android:layout_width="71dp"
+                    android:layout_height="19dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/listrik"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton17"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:contentDescription="TODO"
+                    app:srcCompat="@drawable/air"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/air"
+                    android:layout_width="55dp"
+                    android:layout_height="18dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/air"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton18"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:contentDescription="TODO"
+                    app:srcCompat="@drawable/steam"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/steam"
+                    android:layout_width="55dp"
+                    android:layout_height="17dp"
+                    android:paddingLeft="8dp"
+                    android:text="Steam"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton19"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:contentDescription="TODO"
+                    app:srcCompat="@drawable/pulsa"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/pulsa"
+                    android:layout_width="55dp"
+                    android:layout_height="17dp"
+                    android:paddingLeft="10dp"
+                    android:text="Pulsa"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="71dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton20"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="63dp"
+                    android:layout_height="55dp"
+                    android:contentDescription="TODO"
+                    app:srcCompat="@drawable/tv"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/tv"
+                    android:layout_width="66dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="TV Kabel"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/telkom"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:contentDescription="TODO"
+                    app:srcCompat="@drawable/telkom"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/telkom1"
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:paddingLeft="5dp"
+                    android:text="Telkom"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

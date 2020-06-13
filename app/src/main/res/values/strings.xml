@@ -1,0 +1,76 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name">MIKRON</string>
+    <string name="nav_header_desc">Navigation Header</string>
+    <string name="akun">Demo Akun</string>
+    <string name="email">demoakun@mikron.id</string>
+    <string name="version">Version 1.0 beta</string>
+    <string name="develop">Develop by</string>
+    <string name="ketentuan_layanan">Terima kasih telah menggunakan layanan Mikron App Dengan
+        menggunakan layanan ini, Anda menyepakati aturan dan ketentuan penggunaan layanan ini. Anda
+        setuju dan mengikuti atau tunduk pada prosedur penggunaan layanan yang tersedia untuk Anda
+        (end users), tunduk pada aturan perundang-undangan yang berlaku, dan sewaktu-waktu layanan
+        dapat ditangguhkan atau dihentikan apabila dalam pemanfaatan layanannya terjadi pelanggaran
+        ketentuan penggunaan layanan atau aturan hukum yang berlaku. Mikron App memberikan layanan
+        berupa point kepada pembacanya. Point ini nantinya bisa ditukarkan untuk berbagai produk
+        bernilai yang variannya ditetapkan sepenuhnya oleh Mikron App, begitu juga soal besaran
+        nilai point yang mungkin akan terus mengalami penyesuaian. Point yang dikumpulkan pembaca
+        hanya berlaku di dalam lingkup layanan Mikron App Anda dapat memanfaatkan layanan yang
+        disediakan menggunakan fasilitas atau antar-muka dan panduan yang telah disediakan, dan
+        tidak dibenarkan mengakses layanan dengan metode dan antar-muka selain yang telah
+        disediakan.</string>
+    <string name="kebijakan_privasi">PT. Mikron App. (beralamat di Universitas Muhammadiyah Malang)
+        dan afiliasinya(selanjutnya disebut sebagai MIKRON atau kami) berkomitmen dalam melindungi
+        dan menghormati privasi Anda. Informasi personal mengacu pada segala informasi yang terkait
+        dengan orang pribadi atau dapat mengidentifikasi orang pribadi. Kami mengumpulkan,
+        menggunakan, mengungkap, memindahkan, dan menyimpan data personal Anda saat Anda
+        menggunakan situs, aplikasi seluler, atau layanan kami. Dalam Kebijakan Privasi ini, kami
+        akan menjelaskan kepada Anda tentang tujuan, metode, dan cakupan pengumpulan dan penggunaan
+        informasi personal Anda oleh kami, hak Anda atas informasi personal Anda, dan langkah
+        keamanan yang kami lakukan untuk melindungi informasi Anda.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- drawer string -->
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_wallet">Wallet</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_kebijkan_prvasi">Kebijakan Privasi</string>
+    <string name="menu_ketentuan_layanan">Ketentuan Layanan</string>
+    <string name="menu_bantuan">Bantuan</string>
+    <string name="menu_about">About</string>
+
+
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- drawer string -->
+    <string name="judul">Judul</string>
+    <string name="deskripsi">Deskripsi</string>
+
+    <!-- drawer string -->
+    <string name="saldo">Rp. 0</string>
+    <string name="bayar">Bayar</string>
+    <string name="scanqr">Scan QR</string>
+    <string name="topup">Top Up</string>
+    <string name="promo">Promo</string>
+    <string name="metode_pembayaran">Metode Pembayaran</string>
+    <string name="tagihan">Tagihan</string>
+    <string name="listrik">Listrik</string>
+    <string name="air">Air</string>
+    <string name="steam">Steam</string>
+    <string name="pulsa">Pulsa</string>
+    <string name="tv_kabel">TV Kabel</string>
+    <string name="telkom">Telkom</string>
+
+    <!-- fragment home string -->
+    <string name="menu">MENU</string>
+    <string name="angkot">PILIH ANGKOT</string>
+    <string name="paket">PAKET</string>
+    <string name="rute">RUTE</string>
+    <string name="belanja">BELANJA</string>
+    <string name="darurat">DARURAT</string>
+    <string name="langganan">LANGGANAN</string>
+
+</resources>
